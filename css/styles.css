@@ -475,12 +475,13 @@ address {
 
 .portfolio-list:hover,
 .portfolio-list:focus {
-box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06), 1px 4px 6px rgba(0, 0, 0, 0.16);
+  box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06), 1px 4px 6px rgba(0, 0, 0, 0.16);
 }
 .portfolio-btn-list:not(:last-child) {
   margin-right: 8px;
 }
 .portfolio-img-title {
+  text-align: left;
   font-weight: 700;
   font-size: 18px;
   line-height: 2;
@@ -488,6 +489,7 @@ box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06), 1p
   color: var(--primary-text-color);
 }
 .img-description {
+  text-align: left;
   font-size: 16px;
   line-height: 1.9;
   letter-spacing: 0.03em;
@@ -702,6 +704,7 @@ margin-bottom: 20px;
   box-sizing: border-box;
   padding: 0;
   cursor: pointer;
+  transition: fill 250ms var(--time-distribution);
 }
 .modal-close-btn:hover {
   fill: var(--accent-color);
